@@ -91,6 +91,9 @@ li {
     
 }
 
+.buttons button {
+    font-size:16px;
+}
 
 .Information{
     background-color:lightslategray;
