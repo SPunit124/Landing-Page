@@ -1,0 +1,74 @@
+body {
+    margin:0;
+    padding:0;
+    font-family:"Roboto";
+    display:flex;
+    flex-direction:column;
+    
+}
+
+.Main{
+    width:100%;
+    display:flex;
+    background-color:#1F2937;
+    padding:24px;
+    
+ 
+}
+
+ul {
+    list-style:none;
+    display:flex;
+    margin:0;
+    padding:0;
+    text-align:right;
+    
+}
+
+
+.Main a {
+    text-decoration:none;
+    color:white;
+    width:100px;
+    display:block;
+    padding:25px 20px;
+    text-transform:uppercase;
+    text-align:center;
+    
+}
+
+.Header a:hover{
+    background:#353640;
+}
+
+
+
+
+
+li {
+    display:inline-block;
+}
+
+.Description-Content{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    align-items:center;
+       
+}
+
+.Description-Content a{
+    
+    display:block;
+    padding:25px 20px;
+    flex-direction:row;
+}
+
+
+
+.Footer{
+    display:flex;
+    justify-content:center;
+    align-content:center;
+
+}
