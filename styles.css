@@ -8,10 +8,11 @@ body {
 }
 
 .Main{
-    width:100%;
+    width:auto;
     display:flex;
     background-color:#1F2937;
-    padding:24px;
+    padding:48px;
+    justify-content:center;
     
  
 }
@@ -21,7 +22,7 @@ ul {
     display:flex;
     margin:0;
     padding:0;
-    text-align:right;
+    justify-content:center;
     
 }
 
@@ -36,6 +37,13 @@ ul {
     text-align:center;
     
 }
+
+
+.Header-Content img{
+    display:block;
+}
+
+
 
 .Header a:hover{
     background:#353640;
@@ -57,11 +65,12 @@ li {
        
 }
 
-.Description-Content a{
+.Visualizations {
     
-    display:block;
-    padding:25px 20px;
-    flex-direction:row;
+    display:flex;
+    padding:35px 30px;
+    gap:75px;
+    
 }
 
 
