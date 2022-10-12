@@ -55,6 +55,7 @@ ul {
 
 li {
     display:inline-block;
+    align-items:center;
 }
 
 .Description-Content{
