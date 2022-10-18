@@ -29,7 +29,7 @@ body {
 .ProspectHeader{
     display:flex;
     background-color:#1F2937;
-    padding-bottom :17px;
+    padding-bottom :30px;
     justify-content:center;
     
 }
@@ -88,7 +88,7 @@ li {
 .Visualizations {
     
     display:flex;
-    padding:35px 30px;
+    padding:75px 30px;
     gap:75px;
   
 }
